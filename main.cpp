@@ -1,7 +1,12 @@
 #include <iostream>
-
+#include <math.h>
 using namespace std;
 double my_pow(double num , unsigned int step){
+
+
+num = fabs(num);
+
+
 
     {
            if (step == 0)
